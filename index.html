@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexander — Minecraft Server Developer</title>
+  <meta name="description" content="Alexander, 17. Two years of coding, and the last one mostly Minecraft: plugins, practice servers, configs, and a private PvP client. Open to work. Reach me on Discord: oku8." />
+  <meta name="theme-color" content="#0d1117" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230d1117'/%3E%3Ctext x='32' y='45' font-family='monospace' font-size='38' font-weight='700' fill='%233fb950' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="progress"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#top">alexander<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="hero-top">
+              <p class="eyebrow">Minecraft Server Developer</p>
+              <p class="status"><span class="dot"></span>Available for work</p>
+            </div>
+            <h1>I build plugins and infrastructure for <span class="accent">Minecraft servers.</span></h1>
+            <p class="hero-sub">I'm Alexander, 17. I've been coding for two years, and the last one has been almost all Minecraft. Plugins, practice servers, configs, and a private client I built for PvP players.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary js-copy" data-copy="oku8" type="button">
+                <span class="copy-label">Discord: oku8</span>
+                <span class="copy-hint">click to copy</span>
+              </button>
+              <a class="btn btn-ghost" href="https://github.com/y7qij4b9" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+          <div class="terminal" id="terminal" aria-hidden="true">
+            <div class="term-bar">
+              <span class="term-dot red"></span>
+              <span class="term-dot yellow"></span>
+              <span class="term-dot green"></span>
+              <span class="term-title">alexander@dev: ~</span>
+            </div>
+            <div class="term-body">
+              <div class="term-line"><span class="prompt">$ </span><span class="cmd">whoami</span></div>
+              <div class="term-line out">alexander, 17, minecraft server developer</div>
+              <div class="term-line"><span class="prompt">$ </span><span class="cmd">ls ~/work</span></div>
+              <div class="term-line out">client/  moonprac/  plugins/  configs/</div>
+              <div class="term-line"><span class="prompt">$ </span><span class="cmd">cat status.txt</span></div>
+              <div class="term-line out ok">open to work</div>
+            </div>
+          </div>
+        </div>
+        <ul class="stats">
+          <li><strong>2 years</strong><span>writing code</span></li>
+          <li><strong>~1 year</strong><span>working on Minecraft servers</span></li>
+          <li><strong>Head dev</strong><span>moonprac.net (former)</span></li>
+          <li><strong>Java + C++</strong><span>my strongest languages</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title"><span class="num">01.</span> About me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>The past year of my coding has mostly gone into other people's Minecraft servers, one way or another. Almost none of it is public, so the testimonials here do a lot of the talking for me. If you want specifics on any of it, just message me on Discord.</p>
+            <p>Coding is also just what I do for fun. I like pulling programs apart to see how they tick, and honestly that's taught me more than anything else. Java and C++ are my strongest languages, I've written a bit of Rust and C# on the side, and I've gotten picky about performance.</p>
+            <p class="stack-label">Core stack</p>
+            <ul class="chips">
+              <li>Java</li>
+              <li>C++</li>
+              <li>Rust</li>
+              <li>C#</li>
+              <li>Paper / Spigot</li>
+              <li>Fabric</li>
+              <li>Configs</li>
+              <li>Reverse engineering</li>
+            </ul>
+          </div>
+          <ul class="about-facts">
+            <li><span class="mono">role</span> Head developer, moonprac.net (former)</li>
+            <li><span class="mono">status</span> Open to work</li>
+            <li><span class="mono">focus</span> Servers, plugins, clients</li>
+            <li><span class="mono">contact</span> Discord: oku8</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <h2 class="section-title"><span class="num">02.</span> Work</h2>
+        <p class="section-lead">Most of my work is private, so there's nothing I can link. Here's the short version.</p>
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Private Minecraft Client</h3>
+              <span class="badge">PvP clientele</span>
+            </div>
+            <p>A private client for players in the PvP scene. I did everything from game internals to performance, all in Java and C++.</p>
+            <ul class="project-meta">
+              <li class="mono">Java</li>
+              <li class="mono">C++</li>
+              <li class="mono">Reverse engineering</li>
+            </ul>
+            <p class="card-status mono">status: private</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>moonprac.net</h3>
+              <span class="badge">Head Developer</span>
+            </div>
+            <p>Head developer of a practice server for the competitive PvP community. I handled the setup, the configs, and the plugins it ran on, until it closed.</p>
+            <ul class="project-meta">
+              <li class="mono">Plugins</li>
+              <li class="mono">Configuration</li>
+              <li class="mono">Infrastructure</li>
+            </ul>
+            <p class="card-status mono">status: closed</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Private Plugin Development</h3>
+              <span class="badge">Client work</span>
+            </div>
+            <p>Custom plugins written for individual server owners. Each one is built around that server's setup, with configs their staff can actually use.</p>
+            <ul class="project-meta">
+              <li class="mono">Paper API</li>
+              <li class="mono">Java</li>
+              <li class="mono">Config systems</li>
+            </ul>
+            <p class="card-status mono">status: delivered to clients</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Server Setup &amp; Configurations</h3>
+              <span class="badge">Infrastructure</span>
+            </div>
+            <p>Setup and configuration for private practice servers. Not the flashy part of a server, but it's what decides whether it feels smooth to play on.</p>
+            <ul class="project-meta">
+              <li class="mono">Configs</li>
+              <li class="mono">Performance</li>
+              <li class="mono">Server ops</li>
+            </ul>
+            <p class="card-status mono">status: ongoing</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h2 class="section-title"><span class="num">03.</span> Testimonials</h2>
+        <p class="section-lead">Straight from the people who paid me.</p>
+        <div class="testimonial-grid">
+
+          <figure class="testimonial">
+            <blockquote>Alexander did a fantastic job. I'd definitely recommend him.</blockquote>
+            <figcaption>
+              <span class="avatar">R</span>
+              <span class="who">
+                <strong>Rodrigo</strong>
+                <span>Owner of multiple Minecraft servers &amp; communities</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote>He's an amazing developer and was absolutely worth the money. Amazing work.</blockquote>
+            <figcaption>
+              <span class="avatar">J</span>
+              <span class="who">
+                <strong>Joedine</strong>
+                <span>Competitive PvP community member</span>
+              </span>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <h2 class="section-title center"><span class="num">04.</span> Get in touch</h2>
+          <p class="contact-lead">Need a plugin built, a server fixed up, or a dev on your team? Discord is the fastest way to reach me.</p>
+          <div class="contact-actions">
+            <button class="btn btn-primary js-copy" data-copy="oku8" type="button">
+              <span class="copy-label">Discord: oku8</span>
+              <span class="copy-hint">click to copy</span>
+            </button>
+            <a class="btn btn-ghost" href="https://github.com/y7qij4b9" target="_blank" rel="noopener">github.com/y7qij4b9</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Alexander</p>
+      <a class="back-top mono" href="#top">back to top</a>
+    </div>
+    <div class="container">
+      <p class="disclaimer">Not affiliated with Mojang Studios or Microsoft.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
