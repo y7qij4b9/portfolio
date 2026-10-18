@@ -573,7 +573,7 @@ h1 {
 
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
@@ -714,12 +714,12 @@ h1 {
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; gap: 44px; }
   .terminal { max-width: 560px; }
+  .testimonial-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 860px) {
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .project-grid { grid-template-columns: 1fr; }
-  .testimonial-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 720px) {
